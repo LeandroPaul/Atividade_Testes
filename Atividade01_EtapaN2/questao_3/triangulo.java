@@ -58,6 +58,7 @@ public class triangulo {
     
     double lado2 = l1+l3;
 
+    
     public String somaDosLados(){
         
         if(l2 + l3 == l1){
@@ -69,6 +70,12 @@ public class triangulo {
         else{
             return "Soma lado1 + lado2";
         }
+    }
+
+    public double calculaPerimetro(){
+        double resultado = this.l1 + this.l2 + this.l3;
+
+        return resultado;
     }
 
     

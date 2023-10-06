@@ -31,7 +31,7 @@ public class biblioteca {
     public Boolean patrimonioHistorico(){
         int data = this.anoFundacao;
 
-        if(data <= 1979){
+        if(data < 1950){
             return true;
         }
 
