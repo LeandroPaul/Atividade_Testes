@@ -3,9 +3,21 @@ package Atividade02_EtapaN2;
 public class livro {
     public String nome, autor;
     public int edicao, isbn;
+    public boolean lancamento;
     
+    
+    public boolean Lancamento() {
+        return lancamento;
+    }
 
-    
+    public boolean getLancamento(){
+        return this.lancamento;
+    }
+
+     public void setLancamento(boolean lancamento) {
+        this.lancamento = lancamento;
+    }
+
     public String getNome(){
         return this.nome;
     }
@@ -49,6 +61,8 @@ public class livro {
             return false;
         }
     }
+    
+   
     
 
 

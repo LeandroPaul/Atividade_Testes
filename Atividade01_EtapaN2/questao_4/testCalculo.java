@@ -1,12 +1,12 @@
 package questao_4;
-import org.junit.*;
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
 public class testCalculo {
     @Test
-    public void testCalculo(){
+    public void testCalc(){
         System.out.print("Calculo");
         double x = 10.0;
         double y = 8.0;

@@ -3,9 +3,8 @@ package questao_6;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.*;
+//import static org.junit.Assert.*;
 
-import org.junit.*;
-import static org.junit.Assert.*;
 
 public class imobiliariaTest {
     @Test
@@ -37,7 +36,6 @@ public class imobiliariaTest {
         corretor2.setNome("Mendes");
 
         assertTrue(imovel1.getTipo(), imovel1.oportunidade());
-
 
     }
     

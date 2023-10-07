@@ -14,7 +14,7 @@ public class calculadoraTest {
     @Test 
 
     // Declaração do método de teste, que tem o mesmo nome da classe (construtor).
-    public void calculadoraTest(){ 
+    public void calcTest(){ 
 
         // Instanciação de um objeto da classe Calculadora.
         calculadora c = new calculadora(); 
