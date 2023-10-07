@@ -1,5 +1,6 @@
 package Atividade02_EtapaN2;
 
+<<<<<<< HEAD
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -87,5 +88,24 @@ public class bibliotecaTest {
         biblioteca.incluirLivro(livro6);
         assertFalse(biblioteca.acervoPremium());
     }
+=======
+import static org.junit.Assert.assertEquals;
+
+import org.junit.*;
+import org.junit.Assert.*;
+
+public class bibliotecaTest {
+     @Test
+    public void Test(){
+        biblioteca b = new biblioteca();
+
+        b.setNome("Luz do amanhã");
+        b.setCnpj(7012342);
+        b.SetAnoFundacao(1950);
+
+        assertEquals(true, b.patrimonioHistorico());
+    }
+    
+>>>>>>> 4319aacc0971a986706aa0ad3f4a1255845c25df
 }
 

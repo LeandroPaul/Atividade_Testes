@@ -80,6 +80,7 @@ public class trianguloTest {
         t.setL3(9);
 
         Assert.assertEquals("Soma lado1 + lado2", t.somaDosLados());
+        Assert.assertTrue(18 == t.calculaPerimetro());
     }
 
 }
